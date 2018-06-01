@@ -20,6 +20,9 @@ class Operations
         
     }
     
+    /**
+     * subtract method subtracts two numbers and returns the result
+     */
    double subtract(double op1,double op2)
     {   
       double result = (op1 - op2);
@@ -27,14 +30,18 @@ class Operations
         
     }
    
-   
+   /**
+     * multiply method multiplies two numbers and returns the result
+     */
    double multiply(double op1,double op2)
     {   
       double result = (op1 * op2);
       return result;
     }
    
-   
+   /**
+     * divide method divides two numbers and returns the result
+     */
    double divide(double op1,double op2)
     {
       double result = (op1 / op2);
