@@ -1,1 +1,1 @@
-An application for testing the functionalities of a calculator.
+An application of basic calculator.
