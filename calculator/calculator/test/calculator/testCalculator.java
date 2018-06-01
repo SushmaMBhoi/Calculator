@@ -63,5 +63,15 @@ public class testCalculator {
      public void testDivision() {
      
          assertEquals(1,o.divide(1,1),0.0001);
+         
+         try
+         {
+              assertEquals(10.00,o.divide(5,0),0.0001);
+              fail();
+         }
+         catch(ArithmeticException e)
+                 {
+                     System.out.println("Error :"+e);
+                 }
      }
 }
