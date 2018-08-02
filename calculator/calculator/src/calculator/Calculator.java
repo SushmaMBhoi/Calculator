@@ -64,6 +64,8 @@ public class Calculator
         Operations O = new Operations();
         Scanner s1 = new Scanner(System.in);
         
+        System.out.println("Just to try!");
+        
         double op1, op2, result = 1.0;
         System.out.println("Enter two numbers :");
         Scanner s = new Scanner(System.in);
